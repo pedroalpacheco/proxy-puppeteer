@@ -1,0 +1,26 @@
+{
+  "name": "proxy-puppeteer",
+  "version": "1.0.0",
+  "description": "Exemplo de aula usando puppeteer com proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "proxy": "node src/index-proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalpacheco/proxy-puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalpacheco/proxy-puppeteer/issues"
+  },
+  "homepage": "https://github.com/pedroalpacheco/proxy-puppeteer#readme",
+  "dependencies": {
+    "proxy-chain": "^0.4.6",
+    "puppeteer": "^5.4.1"
+  }
+}
