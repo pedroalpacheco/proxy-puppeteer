@@ -1,3 +1,8 @@
+/**
+ * Site tor
+ * https://www.torproject.org/
+ */
+
 const puppeteer = require('puppeteer');
 const exec = require('child_process').exec;
 
